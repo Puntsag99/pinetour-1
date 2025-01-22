@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0p;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  margin-inline: auto;
+  background-color: aquamarine;
+}
+.position {
+  position: absolute;
+  right: 1000px;
+}
+header {
+  position: fixed;
+  position: absolute;
+
+  right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  right: 400px;
+  position: absolute;
+  display: flex;
+  gap: 24px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+
+  display: block;
+  text-align: center;
+}
+
+.user-icon {
+  width: 20px;
+}
+
+.language {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.hero {
+  display: flex;
+  height: 773px;
+  width: 1440px;
+  background-image: url(./HeroImage.png);
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  flex-direction: column;
+  display: flex;
+  color: white;
+}
+
+.magic-parents {
+  display: flex;
+
+  height: 80px;
+
+  justify-content: center;
+  align-items: center;
+}
+.text-1 {
+  display: flex;
+  opacity: 50%;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Bebas Neue", serif;
+}
+
+.text-2 {
+  height: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 250px;
+  font-weight: 500;
+  font-family: "Bebas Neue", serif;
+}
+
+.text-3 {
+  display: flex;
+  font-weight: 900;
+  font-size: 64px;
+
+  margin-inline: auto;
+  font-family: "Hanuman", serif;
+}
+
+.location {
+  display: flex;
+
+  background-image: url(./image/Location\ image.png);
+  width: 1440px;
+  height: 500px;
+}
+
+.card-1 {
+  display: flex;
+  margin: 65px 1055.49px 65px 109.02px;
+
+  border-radius: 40px;
+}
+
+.frame-1 {
+  display: flex;
+
+  margin-left: 12px;
+}
+
+.rectangle {
+  position: absolute;
+  display: flex;
+  margin: 0px 0.49px 0px 1px;
+  border-radius: 40px;
+}
+img {
+  border-radius: 40px;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.lake-text {
+  position: relative;
+  display: flex;
+  margin: 141px 10px 141px 10px;
+
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  color: white;
+  z-index: 10;
+}
+.card-2 {
+  position: absolute;
+  display: flex;
+  margin: 65px 740px 65px 424.51px;
+
+  border-radius: 40px;
+}
+
+.frame-2 {
+  display: flex;
+
+  margin: 0px 11.49px 0px 12px;
+}
+
+.amar-text {
+  display: flex;
+
+  margin: 141px 10px 141px 10px;
+  font-size: 37px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  color: white;
+  z-index: 10;
+}
+
+.rectangle-1 {
+  position: absolute;
+  display: flex;
+  margin: 0px 0.49px 0px 1px;
+
+  border-radius: 40px;
+}
+
+.card-3 {
+  position: absolute;
+  display: flex;
+  margin: 65px 424.51px 65px 740px;
+
+  border-radius: 40px;
+}
+.frame-3 {
+  display: flex;
+  margin: 0px 11.49px 0px 12px;
+}
+
+.huvsgul-lake {
+  display: flex;
+  width: 232px;
+  height: 44px;
+
+  margin: 163px 10px 163px 10px;
+  font-size: 37px;
+  font-weight: 400px;
+  justify-content: center;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  z-index: 10;
+}
+.rectangle-2 {
+  position: absolute;
+  display: flex;
+  margin: 0px 0.49px 0px 1px;
+  border-radius: 40px;
+}
+
+.card-4 {
+  position: absolute;
+  display: flex;
+  margin: 65px 109.02px 65px 1055.49px;
+
+  border-radius: 40px;
+}
+
+.frame-4 {
+  display: flex;
+
+  margin: 0px 11.49px 0px 12px;
+}
+
+.togoo-text {
+  display: flex;
+  margin: 163px 10px 163px 10px;
+  justify-content: center;
+  width: 232px;
+  height: 44px;
+
+  font-weight: 400;
+  font-size: 37px;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  z-index: 10;
+}
+
+.rectangle-3 {
+  position: absolute;
+  display: flex;
+  margin: 0px 0.49px 0px 1px;
+  border-radius: 40px;
+}
+
+.road-map-image {
+  background-image: url(./image/Roadmap\ image.png);
+  width: 1440px;
+  height: 1022px;
+}
