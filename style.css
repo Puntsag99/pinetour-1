@@ -338,30 +338,141 @@ nav a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", serif;
 }
 
 .block-2 {
+  display: flex;
   width: 513px;
-  height: 112px;
+  padding: 30px;
+  justify-content: space-between;
   background-color: #8bb8c1;
   border-radius: 120px;
 }
 
+.text-6 {
+  column-gap: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.inside-cont-1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.day-2 {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+
 .block-3 {
+  display: flex;
   width: 513px;
-  height: 112px;
+  padding: 30px;
   background-color: #aad8d7;
   border-radius: 120px;
+  justify-content: space-between;
+}
+
+.text-7 {
+  column-gap: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.inside-cont-2 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.day-3 {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", serif;
 }
 .block-4 {
+  display: flex;
   width: 513px;
-  height: 112px;
+  padding: 30px;
   background-color: #8bc0bd;
   border-radius: 120px;
+  justify-content: space-between;
+}
+
+.text-8 {
+  column-gap: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.inside-cont-4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.day-4 {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", serif;
 }
 .block-5 {
+  display: flex;
   width: 513px;
-  height: 112px;
+  padding: 30px;
   background-color: #97cce0;
   border-radius: 120px;
+  justify-content: space-between;
+}
+
+.text-9 {
+  column-gap: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.inside-cont-4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.day-5 {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", serif;
 }
