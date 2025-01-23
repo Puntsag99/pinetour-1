@@ -262,6 +262,7 @@ nav a {
 }
 
 .road-map-image {
+  position: relative;
   display: flex;
   background-image: url(./image/Roadmap\ image.png);
   width: 1440px;
@@ -475,4 +476,48 @@ nav a {
   font-size: 14px;
   font-weight: 500;
   font-family: "Inter", serif;
+}
+.img {
+  position: absolute;
+}
+.aa {
+  top: 290px;
+  left: 990px;
+}
+.bb {
+  top: 390px;
+  left: 990px;
+}
+.cc {
+  top: 450px;
+  left: 1167px;
+}
+
+.dd {
+  top: 520px;
+  left: 890px;
+}
+
+.ff {
+  top: 420px;
+  left: 790px;
+}
+
+.bottom-backround {
+  background: url(./image/Price&Footer\ image.png);
+  height: 1120px;
+}
+.top-pricing {
+  text-align: center;
+  background-color: aqua;
+}
+
+.top-pricing > h1 {
+  font-size: 100px;
+}
+
+.prices {
+  width: 384px;
+  height: 527px;
+  background-color: tomato;
 }
