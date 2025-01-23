@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0p;
@@ -137,7 +141,8 @@ nav a {
   margin: 0px 0.49px 0px 1px;
   border-radius: 40px;
 }
-img {
+
+.img-4 {
   border-radius: 40px;
   box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
@@ -257,7 +262,106 @@ img {
 }
 
 .road-map-image {
+  display: flex;
   background-image: url(./image/Roadmap\ image.png);
   width: 1440px;
   height: 1022px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 204px;
+  align-items: center;
+  padding: 120px 0px 1px 2px;
+}
+
+.dest-text {
+  display: flex;
+  flex-direction: column;
+  width: 1442px;
+  height: 85px;
+
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 42px;
+  font-family: "Inter", serif;
+}
+.pack-text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+
+.frame-5 {
+  width: 1200px;
+  height: 640px;
+  margin-top: 59px;
+}
+
+.left-cont {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 20px;
+}
+.block-1 {
+  background-color: #eee9d9;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 513px;
+}
+
+.text-5 {
+  column-gap: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.inside-cont {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+.day-1 {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.block-2 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bb8c1;
+  border-radius: 120px;
+}
+
+.block-3 {
+  width: 513px;
+  height: 112px;
+  background-color: #aad8d7;
+  border-radius: 120px;
+}
+.block-4 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bc0bd;
+  border-radius: 120px;
+}
+.block-5 {
+  width: 513px;
+  height: 112px;
+  background-color: #97cce0;
+  border-radius: 120px;
 }
