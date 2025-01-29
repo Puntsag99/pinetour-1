@@ -1,0 +1,78 @@
+.container {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(3, 100px) 50px;
+  grid-template-areas:
+    "child-1 child-2   child-3 child-4 child-5 child-5"
+    "child-1 child-6   child-7 child-7 child-8 child-9"
+    "child-10 child-10 child-7 child-7 child-11 child-9"
+    "child-10 child-10 item-1  item-2    item-3  item-4";
+}
+
+.child-1 {
+  grid-area: child-1;
+  background-color: grey;
+}
+
+.child-2 {
+  grid-area: child-2;
+  background-color: greenyellow;
+}
+
+.child-3 {
+  grid-area: child-3;
+  background-color: blanchedalmond;
+}
+
+.child-4 {
+  grid-area: child-4;
+  background-color: rgb(128, 192, 2);
+}
+
+.child-5 {
+  grid-area: child-5;
+  background-color: violet;
+}
+
+.child-6 {
+  grid-area: child-6;
+  background-color: thistle;
+}
+
+.child-7 {
+  grid-area: child-7;
+  background-color: wheat;
+}
+.child-8 {
+  grid-area: child-8;
+  background-color: wheat;
+}
+.child-9 {
+  grid-area: child-9;
+  background-color: slateblue;
+}
+.child-10 {
+  grid-area: child-10;
+  background-color: brown;
+}
+
+.item-1 {
+  grid-area: item-1;
+  background-color: tomato;
+}
+
+.item-2 {
+  grid-area: item-2;
+  background-color: burlywood;
+}
+
+.item-3 {
+  grid-area: item-3;
+  background-color: burlywood;
+}
+
+.item-4 {
+  grid-area: item-4;
+  background-color: green;
+}
